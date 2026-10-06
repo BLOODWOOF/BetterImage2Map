@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "betterimage2map",
+	"version": "${version}",
+	"name": "BetterImage2Map",
+	"description": "Turn images into maps and lay them out across item frames as one wall, with commands and an in-game screen.",
+	"authors": [
+		"BLOODWOLF"
+	],
+	"license": "MIT",
+	"icon": "assets/betterimage2map/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.betteri2m.Bi2m"
+		],
+		"client": [
+			"dev.betteri2m.client.Bi2mClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"fastitemframes": "*"
+	}
+}

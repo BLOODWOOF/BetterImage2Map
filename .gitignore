@@ -1,0 +1,16 @@
+.gradle/
+build/
+run/
+logs/
+client_cp.txt
+server_cp.txt
+
+# Internal working notes and dev-only tooling; not part of the published mod.
+/plan.md
+/docs/
+/tools/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
